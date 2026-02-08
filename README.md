@@ -1,16 +1,6 @@
 # Proyecto FastAPI
 
-Para ejecutar la app es necesario importar todas las dependencias especificadas en requirements.txt
-
-Para importar todas las librerias ejecute el siguiente comando:
- - pip install -r requirements.txt
----
-Una vez las dependencias esten instaladas será necesario crear el espacio virtual para la API con el siguiente comando:
- - virutalenv venv
-
----
-
-Tambien necesario tener activo los contenedores de docker especificados en el docker-compose.yaml
+Esta version de la aplicacion corre enteramente en docker, por lo que lo unico que hay que hacer es crear los contenedores y crear la base de datos.
 
 Para crear e iniciar los contenedores de docker ejecute el siguiente comando:
  - docker compose up -d
