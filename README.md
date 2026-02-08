@@ -5,7 +5,12 @@ Para ejecutar la app es necesario importar todas las dependencias especificadas 
 Para importar todas las librerias ejecute el siguiente comando:
  - pip install -r requirements.txt
 ---
-Una vez las dependencias esten instaladas la API podrá funcionar, pero es necesario tener activo los contenedores de docker especificados en el docker-compose.yaml
+Una vez las dependencias esten instaladas será necesario crear el espacio virtual para la API con el siguiente comando:
+ - virutalenv venv
+
+---
+
+Tambien necesario tener activo los contenedores de docker especificados en el docker-compose.yaml
 
 Para crear e iniciar los contenedores de docker ejecute el siguiente comando:
  - docker compose up -d
