@@ -1,4 +1,4 @@
-from app.db.database import Base
+from db.database import Base
 from sqlalchemy import Column,Integer,String,Boolean,DateTime
 from datetime import datetime
 from sqlalchemy.schema import ForeignKey

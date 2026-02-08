@@ -1,8 +1,8 @@
 from fastapi import APIRouter,Depends
-from app.routers.schemas import User,UpdateUser,ShowUser
-from app.db.database import get_db
+from routers.schemas import User,UpdateUser,ShowUser
+from db.database import get_db
 from sqlalchemy.orm import Session
-from app.db import models
+from db import models
 
 router = APIRouter(
     prefix="/user",
